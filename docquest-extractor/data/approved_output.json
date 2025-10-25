@@ -1,0 +1,5 @@
+{
+  "description": "Approved and finalized extracted content",
+  "format": "JSON array of approved content blocks",
+  "blocks": []
+}

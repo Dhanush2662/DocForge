@@ -1,0 +1,5 @@
+{
+  "description": "Question and answer pairs extracted from documents",
+  "format": "JSON array of Q&A pairs",
+  "qa_pairs": []
+}

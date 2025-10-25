@@ -1,0 +1,5 @@
+{
+  "description": "Review state tracking for extracted content",
+  "format": "JSON object tracking review status",
+  "documents": {}
+}

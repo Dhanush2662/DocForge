@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocQuest Review Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DocQuest Review Dashboard</h1>
+            <p>Review and approve extracted content from documents</p>
+        </header>
+        
+        <div class="controls">
+            <button id="refreshBtn">Refresh Blocks</button>
+            <button id="exportBtn">Export Approved</button>
+            <select id="exportFormat">
+                <option value="json">JSON</option>
+                <option value="text">Plain Text</option>
+                <option value="markdown">Markdown</option>
+            </select>
+        </div>
+        
+        <div id="blockList" class="block-list">
+            <!-- Blocks will be loaded here dynamically -->
+        </div>
+    </div>
+    
+    <div id="reviewModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Review Block</h2>
+            <div id="blockContent"></div>
+            <div class="review-controls">
+                <label for="reviewStatus">Status:</label>
+                <select id="reviewStatus">
+                    <option value="pending">Pending</option>
+                    <option value="approved">Approved</option>
+                    <option value="rejected">Rejected</option>
+                </select>
+                
+                <label for="reviewerName">Reviewer:</label>
+                <input type="text" id="reviewerName" placeholder="Your name">
+                
+                <label for="reviewNotes">Notes:</label>
+                <textarea id="reviewNotes" placeholder="Add review notes..."></textarea>
+                
+                <button id="saveReview">Save Review</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "description": "Classified text blocks will be stored here",
+  "format": "JSON array of classified text blocks",
+  "blocks": []
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Raw blocks extracted from documents will be stored here",
+  "format": "JSON array of text blocks with metadata",
+  "blocks": []
+}
