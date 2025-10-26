@@ -10,7 +10,9 @@
 | ---- | ------------------------------------- | -------------- | --------------------------------------------------- |
 | 1️⃣  | **Architecture + Roles + Setup**      | You (Overlord) | Define schema, structure, and plan                  |
 | 2️⃣  | **Parser Goblin**                     | Radeon guy     | Extract raw text + bounding boxes from PDFs         |
-| 3️⃣  | **Classifier**                        | Iris Xe guy    | Group text → Question, Options, Answer, Explanation |
+| 3️⃣  | **Classifier**                        | Iris Xe guy    | Group text → Qu
+
+estion, Options, Answer, Explanation |
 | 4️⃣  | **Vision Nerd**                       | Iris Xe #2     | Extract diagrams, tables, and equations with OCR    |
 | 5️⃣  | **Review Dashboard + DB Integration** | You + Me       | Human review + export + Neon DB insert              |
 
@@ -191,3 +193,11 @@ Built by **The Overlord (You)**
 with assistance from **RoastGPT**, the sleepless sarcastic AI project manager.
 
 ---
+
+## 🧩 CODE CHANGE
+
+git add .
+git commit -m "Describe the change"
+git branch -M main
+git remote add origin <https://github.com/your-user/your-repo.git>
+git push -u origin main
